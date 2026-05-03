@@ -1,0 +1,6 @@
+ComfyUI-Manager
+ComfyUI-Impact-Pack
+ComfyUI_IPAdapter_plus
+ComfyUI-Nunchaku
+ComfyUI_Custom_Nodes_AlekPet
+ComfyUI-Crystools

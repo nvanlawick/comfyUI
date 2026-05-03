@@ -1,0 +1,22 @@
+{
+  "required_titles": ["VYRAL_POSITIVE","VYRAL_LATENT","VYRAL_SEED","VYRAL_LOADER","VYRAL_SAVE"],
+  "sdxl_required_titles": ["VYRAL_NEGATIVE"],
+  "default_model_by_pillar": {
+    "signature_dish":"sdxl",
+    "behind_scenes":"sdxl",
+    "creator_moment":"sdxl",
+    "vibe_atmosphere":"flux",
+    "campaign_asset":"flux"
+  },
+  "templates": [
+    {"pillar":"signature_dish","model_mode":"sdxl","file":"backend/workflows/vyral/templates/signature_dish.sdxl.api.json"},
+    {"pillar":"behind_scenes","model_mode":"sdxl","file":"backend/workflows/vyral/templates/behind_scenes.sdxl.api.json"},
+    {"pillar":"creator_moment","model_mode":"sdxl","file":"backend/workflows/vyral/templates/creator_moment.sdxl.api.json"},
+    {"pillar":"vibe_atmosphere","model_mode":"flux","file":"backend/workflows/vyral/templates/vibe_atmosphere.flux.api.json"},
+    {"pillar":"campaign_asset","model_mode":"flux","file":"backend/workflows/vyral/templates/campaign_asset.flux.api.json"}
+  ],
+  "trajectories": {
+    "sdxl": {"square":[512,512],"portrait":[512,640],"vertical":[448,800],"landscape":[800,448]},
+    "flux": {"square":[1024,1024],"portrait":[896,1152],"vertical":[720,1280],"landscape":[1280,720]}
+  }
+}

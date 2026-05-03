@@ -1,0 +1,7 @@
+sd_xl_turbo_1.0_fp16.safetensors
+flux1-schnell.safetensors
+ernie_image_turbo_q8.gguf
+zimage_turbo_v1.safetensors
+vyral_food_porn_v1.safetensors
+vyral_black_gloves_v1.safetensors
+sdxl_vae.safetensors

@@ -1,0 +1,4 @@
+{
+  "note": "Baseline SDXL Turbo reference template for VYRAL SDXL workflows",
+  "ckpt": "sd_xl_turbo_1.0_fp16.safetensors"
+}
