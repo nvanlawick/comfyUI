@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "description": "Pinned model manifest for VYRAL ComfyUI bootstrap",
+  "models": [
+	{
+	  "name": "sd_xl_turbo_1.0_fp16.safetensors",
+	  "tier": "baseline",
+	  "required": true,
+	  "dest_dir": "models/checkpoints",
+	  "url": "REPLACE_WITH_YOUR_MIRROR_OR_HF_URL",
+	  "sha256": "REPLACE_SHA256"
+	},
+	{
+	  "name": "flux1-schnell.safetensors",
+	  "tier": "baseline",
+	  "required": true,
+	  "dest_dir": "models/checkpoints",
+	  "url": "REPLACE_WITH_YOUR_MIRROR_OR_HF_URL",
+	  "sha256": "REPLACE_SHA256"
+	},
+	{
+	  "name": "sdxl_vae.safetensors",
+	  "tier": "baseline",
+	  "required": true,
+	  "dest_dir": "models/vae",
+	  "url": "REPLACE_WITH_YOUR_MIRROR_OR_HF_URL",
+	  "sha256": "REPLACE_SHA256"
+	},
+	{
+	  "name": "vyral_food_porn_v1.safetensors",
+	  "tier": "baseline",
+	  "required": true,
+	  "dest_dir": "models/loras",
+	  "url": "REPLACE_WITH_YOUR_PRIVATE_URL",
+	  "sha256": "REPLACE_SHA256"
+	},
+	{
+	  "name": "vyral_black_gloves_v1.safetensors",
+	  "tier": "baseline",
+	  "required": true,
+	  "dest_dir": "models/loras",
+	  "url": "REPLACE_WITH_YOUR_PRIVATE_URL",
+	  "sha256": "REPLACE_SHA256"
+	},
+	{
+	  "name": "ernie_image_turbo_q8.gguf",
+	  "tier": "candidate",
+	  "required": false,
+	  "dest_dir": "models/gguf",
+	  "url": "REPLACE_WITH_YOUR_MIRROR_OR_HF_URL",
+	  "sha256": "REPLACE_SHA256"
+	},
+	{
+	  "name": "zimage_turbo_v1.safetensors",
+	  "tier": "candidate",
+	  "required": false,
+	  "dest_dir": "models/checkpoints",
+	  "url": "REPLACE_WITH_YOUR_MIRROR_OR_HF_URL",
+	  "sha256": "REPLACE_SHA256"
+	}
+  ]
+}
