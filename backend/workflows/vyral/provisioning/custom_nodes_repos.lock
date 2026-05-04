@@ -1,0 +1,9 @@
+# format: <git_url>@<ref>
+# pin refs to tags or commit SHAs for reproducibility
+
+https://github.com/ltdrdata/ComfyUI-Manager.git@main
+https://github.com/ltdrdata/ComfyUI-Impact-Pack.git@main
+https://github.com/cubiq/ComfyUI_IPAdapter_plus.git@main
+https://github.com/mit-han-lab/ComfyUI-Nunchaku.git@main
+https://github.com/AlekPet/ComfyUI_Custom_Nodes_AlekPet.git@master
+https://github.com/crystian/ComfyUI-Crystools.git@main
